@@ -1,0 +1,247 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background: #f3f4f6;
+  color: #1f2937;
+  scroll-behavior: smooth;
+}
+
+/* IEEE Colors */
+:root {
+  --ieeeyellow: #ffc800;  /* Yellow for text/writing */
+  --ieeeblack: #000000;   /* Black for boxes/backgrounds */
+}
+
+/* Header */
+.header {
+  background: var(--ieeeblack);
+  color: var(--ieeeyellow);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+/* Update nav-links for better spacing */
+.nav-links {
+  display: flex;
+  gap: 0.01rem; /* Increased from 1rem */
+  list-style: none; /* Remove bullets */
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nav-links li {
+  margin: 0; /* Reset margins */
+}
+
+.nav-links a {
+  color: var(--ieeeyellow);
+  text-decoration: none;
+  padding: 0.125rem 0.25rem; /* Button-like padding */
+  border-radius: 0.25rem;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  background: rgba(255, 200, 0, 0.2); /* Subtle yellow glow */
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+/* Mobile optimization */
+@media (max-width: 1024px) {
+  .nav-links {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--ieeeyellow);
+}
+
+/* Add to existing CSS */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+  border-radius: 4px;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--ieeeyellow);
+}
+
+/* Mobile hamburger (bonus) */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Add hamburger JS later */
+  }
+}
+
+/* Hero */
+.hero {
+  background: var(--ieeeblack);
+  color: var(--ieeeyellow);
+  text-align: center;
+  padding: 5rem 1rem;
+}
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--ieeeyellow);
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: var(--ieeeyellow);
+}
+.btn {
+  background: var(--ieeeyellow);
+  color: var(--ieeeblack);
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 0.375rem;
+  display: inline-block;
+  font-weight: bold;
+}
+.btn:hover {
+  background: #e6b800; /* Slightly darker yellow */
+  color: var(--ieeeblack);
+}
+
+.session-title {
+  background: var(--ieeeblack);
+  color: var(--ieeeyellow);
+  font-weight: bold;
+  text-align: left;
+  padding: 0.01rem 0.1rem;  /* Smaller: was 0.1rem */
+  margin: 0.1rem 0;         /* Smaller: was 0.25rem 0 */
+  border: 1px solid var(--ieeeyellow);
+  border-radius: 0.1rem;    /* Smaller: was 0.15rem */
+  letter-spacing: 0.3px;    /* Smaller: was 0.5px */
+}
+
+#about h2 {
+  margin-top: 30px;   /* reduce space before Targeted Topics */
+  margin-bottom: 15px;
+}
+
+#about .list {
+  margin-top: 10px;
+}
+
+/* Sections */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem 1rem;
+}
+.section {
+  margin-bottom: 3rem;
+}
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--ieeeyellow);
+}
+
+/* Grid / Cards */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.card {
+  background: var(--ieeeblack);
+  color: var(--ieeeyellow);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  text-align: center;
+  border: 2px solid var(--ieeeyellow);
+}
+.card img {
+  border-radius: 50%;
+  max-width: 150px;
+  margin-bottom: 1rem;
+}
+.card h3 {
+  color: var(--ieeeyellow);
+  margin-bottom: 0.5rem;
+}
+.affiliation {
+  font-style: italic;
+  color: #fff3cd; /* Lighter yellow tint for contrast */
+  margin-bottom: 0.5rem;
+}
+.btn-link {
+  color: var(--ieeeyellow);
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+#committee .card h3 a {
+  color: var(--ieeeyellow) !important;
+}
+
+/* List styling */
+.list {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 1rem;
+}
+.list li::before {
+  content: "▸";
+  color: var(--ieeeyellow);
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+/* Footer */
+.footer {
+  background: var(--ieeeblack);
+  color: var(--ieeeyellow);
+  text-align: center;
+  padding: 1rem;
+}
+.footer a {
+  color: var(--ieeeyellow);
+  text-decoration: underline;
+}
