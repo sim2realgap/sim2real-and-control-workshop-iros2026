@@ -21,7 +21,6 @@
       <li><a href="#schedule">Schedule</a></li>
       <li><a href="#speakers">Speakers</a></li>
       <li><a href="#papers">Papers</a></li>
-      <li><a href="#simulators">Simulators</a></li>
       <li><a href="#committee">Committee</a></li>
       <li><a href="#support">Support</a></li>
       <li><a href="#resources">Resources</a></li>
@@ -32,7 +31,7 @@
   <!-- Hero Section -->
   <section class="hero">
     <h2>Sim2Real and Classical Control: From Rigorous Theory to Data-Driven Robotics</h2>
-    <p>Join our workshop to explore state-of-the-art simulators and new research methodologies at the edge between control and sim-to-real transfer.</p>
+    <p>Join our workshop to explore state-of-the-art and new research methodologies at the edge between control and sim-to-real transfer.</p>
     <a href="https://2026.ieee-iros.org/" target="_blank" class="btn btn-secondary" rel="noopener noreferrer">
   IROS 2026 Pittsburgh
 </a> </section>
@@ -41,56 +40,101 @@
   <h2>About the Workshop</h2>
 
   <p>
-    Simulators have served as essential instruments in the establishment of robotics as a tangible reality, and they have typically been one step ahead of real-world implementations. Today, we are in a new era where simulators such as Gazebo, MuJoCo, OpenAI Gym, PyBullet, RoboSumo are becoming part of the robot deployment pipeline, enabling control and perception policies trained in simulation to be deployed on real robots. This methodology is known as sim-to-real (sim2real) transfer. In a complementary direction, the community is increasingly leveraging real-world data to refine simulators, a process often referred to as real-to-sim (real2sim). In such a scenario, it is unclear to what extent sim2real and real2sim represent new methodologies or prior arts well-known in the state-of-the-art as adaptive control and system identification.
+    Simulation has long been a valuable tool for robotics, but its role is fundamentally shifting. Simulators are now integrated components of deployment pipelines, not merely prototyping aids. This shift, embodied in sim-to-real transfer, is rapidly redefining how robots are designed and
+validated at scale. 
+  </p>
+  <p>
+Yet the simulation-reality gap remains one of the most unsolved problems in modern robotics. The community is responding by exploiting real-world data to refine simulators through real-to-sim techniques. Together, sim-to-real and real-to-sim form a closed-loop framework that extends
+the classical foundations of system identification and adaptive control, fields with decades of rigorous theory that both communities have every reason to build upon.
+Two forms of fragmentation currently limit collective progress. First, model-driven and data-driven researchers often work in isolation. Second, system identification, adaptive control, and
+sim-to-real are treated as competing paradigms rather than complementary instruments facing the same problem.
+  </p>
+<p>
+In this context, this full-day workshop makes a targeted intervention across IROS’s core tracks, namely control, learning, and perception, with four concrete objectives: first, consolidate frag-
+mented knowledge across communities; second, align research directions between control and learning communities; third, facilitate translation of academic advances into real-world deploy-
+ment, and fourth, promoting inter-generational exchange between speakers from academia and industry, students, early-career researchers, and engineers. Unlike prior events that have addressed
+sim-to-real at the application layer, this workshop treats it as a foundational methodological problem approached through the lens of control theory, a framing that so far has remained
+absent from the conference landscape.
   </p>
 
-  <!-- Images container -->
-  <div style="display: flex; gap: 20px; justify-content: center; margin-top: 25px; flex-wrap: wrap;">
-    <img src="./images/sim2real.png" alt="Workshop illustration 1" style="width: 45%; min-width: 280px; border-radius: 12px;">
-    <img src="./images/all_sim.png" alt="Workshop illustration 2" style="width: 45%; min-width: 280px; border-radius: 12px;">
-  </div>
+<!-- Images container -->
+<div style="display: flex; gap: 20px; justify-content: center; margin-top: 25px; flex-wrap: wrap;">
+
+  <figure style="width: 45%; min-width: 280px; margin: 0; text-align: center;">
+    <img src="./images/sim2real.png" alt="Workshop illustration 1" style="width: 100%; border-radius: 12px;">
+    <figcaption style="font-size: 0.9em; color: #555; margin-top: 6px;">
+      Courtesy of <a href="https://developer.nvidia.com/blog/training-in-nvidia-isaac-sim-closes-the-sim2real-gap/" target="_blank">NVIDIA Developer Blog</a>
+    </figcaption>
+  </figure>
+
+  <figure style="width: 45%; min-width: 280px; margin: 0; text-align: center;">
+    <img src="./images/all_sim.png" alt="Workshop illustration 2" style="width: 100%; border-radius: 12px;">
+    <figcaption style="font-size: 0.9em; color: #555; margin-top: 6px;">
+    </figcaption>
+  </figure>
+
+</div>
 
   <h2>Targeted Topics</h2>
   <ul class="list">
-    <li>Sim-to-Real (Sim2Real) Transfer in Robotics</li>
-    <li>Real-to-Sim (Real2Sim) System Identification</li>
-    <li>Adaptive and Robust Control</li>
-    <li>Classical Control vs Learning-Based Control</li>
-    <li>Domain Randomization & Domain Adaptation</li>
-    <li>Reinforcement Learning for Robotic Systems</li>
-    <li>Physics-Based Simulation Tools (Gazebo, MuJoCo, PyBullet, etc.)</li>
+    <li>Sim-to-Real and Real-to-Sim Transfer for Whole-Body Control of Mobile Platforms and
+Manipulators</li>
+    <li>Adaptive Control and Online System Identification</li>
+    <li> Hybrid Methods: Combining Classical and Adaptive Control with Machine Learning</li>
+    <li>World Models and System Identification for Sim-to-Real Gap Reduction</li>
+    <li>Data Augmentation, Domain Randomization, and Benchmarking for Sim-to-Real</li>
+    <li>Foundation Models and Large-Scale Pretraining for Robotics</li>
+    <li>Transfer and Continuous Learning for Interaction Control</li>
+    <li>Theoretical Guarantees, Safety, and Robustness in Sim-to-Real</li>
+    <li>Iterative Co-Improvement of World Models and Controllers / Policies</li>
     <li>Data-Driven Modeling and Hybrid Control Architectures</li>
-    <li>Benchmarking and Evaluation Methodologies</li>
+    <li>World Models for Synthetic Robot Data Generation</li>
   </ul>
 </section>
-  <!-- Schedule Section -->
-  <section id="schedule" class="container section">
-    <h2>Schedule</h2>
-    <ul class="list">
-      <li><strong>08:25 - 08:30:</strong> Introduction, Welcome & Overview</li>
-      <li class="session-title">
-  Session 1: Perspectives on Sim2Real and Classical Control
-</li>
-      <li><strong>08:30 - 09:00:</strong> Keynote Talks</li>
-      <li><strong>09:00 - 09:30:</strong> Keynote Talks</li>
-      <li><strong>09:30 - 09:45:</strong> Coffee Break</li>
-            <li class="session-title">
-  Session 2: Hands on Realistic Sim2Real Transfer
-</li>
-      <li><strong>09:45 - 10:15:</strong> Keynote Talk</li>
-      <li><strong>10:15 - 10:45:</strong> Keynote Talk</li>
-      <li><strong>10:45 - 11:00:</strong> Coffe Break</li>
-                  <li class="session-title">
-  Session 3: Poster Sessions & Round Table
-</li>
-      <li><strong>11:00 - 12:20:</strong> Poster contributions abstracts, Breakout sessions, Round Table</li>
-      <li><strong>12:20 - 12:30:</strong> Closing Remarks</li>
-    </ul>
-  </section>
+<!-- Schedule Section -->
+<section id="schedule" class="container section">
+  <h2>Schedule</h2>
+  <ul class="list">
+    <li><strong>08:25 - 08:30:</strong> Introduction, Welcome & Overview</li>
+
+    <li class="session-title">Session 1: Invited Talks - Part I - Research Perspective</li>
+    <li><strong>08:30 - 09:00:</strong> Prof. Hua Wei + Q&A</li>
+    <li><strong>09:00 - 09:30:</strong> Prof. Georgia Chalvatzaki + Q&A</li>
+    <li><strong>09:30 - 10:00:</strong> Prof. Angela Schoellig + Q&A</li>
+    <li><strong>10:00 - 10:15:</strong> <em>Coffee Break</em></li>
+
+    <li class="session-title">Session 2: Invited Talks - Industrial Perspective</li>
+    <li><strong>10:15 - 10:45:</strong> Speaker PAL Robotics + Q&A</li>
+    <li><strong>10:45 - 11:15:</strong> Dr. John Subosits (Toyota Research Institute) + Q&A</li>
+    <li><strong>11:15 - 11:30:</strong> <em>Coffee Break</em></li>
+
+    <li class="session-title">Session 3: Poster Session</li>
+    <li><strong>11:30 - 12:30:</strong> Poster Session</li>
+
+    <li><strong>12:30 - 13:30:</strong> <em>Lunch Break</em></li>
+
+    <li class="session-title">Session 4: Spotlight Presentations</li>
+    <li><strong>13:30 - 14:00:</strong> Award Finalists Present Their Works + Q&A</li>
+
+    <li class="session-title">Session 5: Invited Talks - Part II - Research Perspective</li>
+    <li><strong>14:00 - 14:30:</strong> Prof. Katerina Fragkiadaki + Q&A</li>
+    <li><strong>14:30 - 15:00:</strong> Prof. Siyuan Huang + Q&A</li>
+    <li><strong>15:00 - 15:30:</strong> Prof. Kostas Alexis + Q&A</li>
+    <li><strong>15:30 - 15:45:</strong> <em>Coffee Break</em></li>
+
+    <li class="session-title">Session 6: Round Table & Awards</li>
+    <li><strong>15:45 - 16:30:</strong> Round Table Discussion</li>
+    <li><strong>16:30 - 16:45:</strong> Awards (PAL Robotics sponsored) & Final Remarks</li>
+
+    <li class="session-title"><strong>End of Full Day Workshop</strong></li>
+  </ul>
+</section>
 
   <!-- Speakers Section -->
   <section id="speakers" class="container section">
     <h2>Speakers</h2>
+      <!-- Research Representatives -->
+  <h3>Research Representatives</h3>
     <div class="grid">
       <div class="card">
         <img src="./images/people/hua.png" alt="Speaker 1">
@@ -107,22 +151,41 @@
       <div class="card">
         <img src="./images/people/kostas.jpg" alt="Speaker 2">
         <h3>Prof. Kostas Alexis</h3>
-        <p class="affiliation">Norwegian University of Science and Technology</p>
+        <p class="affiliation">Norwegian University of Science and Technology, Trondheim, Norway</p>
         <!-- <p>Topic: LiDAR-based Simulation Environments</p> -->
       </div>
             <div class="card">
         <img src="./images/people/angela.jpg" alt="Speaker 2">
         <h3>Prof. Angela Schoellig</h3>
-        <p class="affiliation">Technical University of Munkich</p>
+        <p class="affiliation">Technical University of Munich, Munich, Germany</p>
         <!-- <p>Topic: LiDAR-based Simulation Environments</p> -->
       </div>
             <div class="card">
         <img src="./images/people/georgia.jpeg" alt="Speaker 2">
         <h3>Prof. Georgia Chalavatzki</h3>
-        <p class="affiliation">Technical University Darmstad</p>
+        <p class="affiliation">Technical University Darmstad, Darmstad, Germany</p>
         <!-- <p>Topic: LiDAR-based Simulation Environments</p> -->
-      </div>
+            </div>
+    <div class="card">
+      <img src="./images/people/siyuan.jpeg" alt="Prof. Siyuan Huang">
+      <h3>Prof. Siyuan Huang</h3>
+      <p class="affiliation">Beijing Institute for General Artificial Intelligence, Beijing, China</p>
     </div>
+  </div>
+    <!-- Industry Representatives -->
+  <h3>Industry Representatives</h3>
+  <div class="grid">
+    <div class="card">
+      <img src="./images/people/PAL.png" alt="PAL Robotics Speaker">
+      <h3>Speaker PAL Robotics</h3>
+      <p class="affiliation">PAL Robotics</p>
+    </div>
+    <div class="card">
+      <img src="./images/people/John.jpg" alt="Dr. John Subosits">
+      <h3>Dr. John Subosits</h3>
+      <p class="affiliation">Toyota Research Institute</p>
+    </div>
+  </div>
   </section>
 
   <!-- Papers Section 
@@ -169,7 +232,7 @@
       <h3>
         <a href="https://scholar.google.com/citations?hl=en&user=3un_pPgAAAAJ" target="_blank">Prof. Loris Roveda</a>
       </h3>
-      <p class="affiliation">IDSIA-SUPSI, Switzerland</p>
+      <p class="affiliation">IDSIA-SUPSI, Lugano, Switzerland</p>
       <!-- Google Scholar profile found — cited works in robotics, AI, optimization, etc. :contentReference[oaicite:0]{index=0} -->
     </div>
 
@@ -212,7 +275,7 @@
   </div>
 </section>
 <section id="committee" class="container section">
-  <h2>Steering Committee</h2>
+  <h2>Organizers</h2>
   <div class="grid">
 <div class="card">
   <img src="./images/dario.png" alt="Dario Sanalitro">
@@ -245,20 +308,55 @@
   </h3>
   <p class="affiliation">PAL Robotics, Barcelona, Spain</p>
 </div>
+
+    <div class="card">
+      <img src="./images/people/liu.jpeg" alt="Zhixuan Liu">
+      <h3>
+        <a href="#" target="_blank">Zhixuan Liu</a>
+      </h3>
+      <p class="affiliation">Carnegie Mellon University, Pittsburgh, USA</p>
+    </div>
+
+    <div class="card">
+      <img src="./images/people/jon.jpg" alt="Jonathan Francis">
+      <h3>
+        <a href="#" target="_blank">Dr. Jonathan Francis</a>
+      </h3>
+      <p class="affiliation">Bosch Center for AI, Carnegie Mellon University, Pittsburgh, USA</p>
+    </div>
+
+
   </div>
+
+
     <!-- Commitee Section -->
-<section id="committee" class="container section">
+<section id="support" class="container section">
   <h2>Support</h2>
   <div class="grid">
+    <div class="card">
+      <img src="./images/pal_logo.png" alt="PAL Robotics Logo">
+      <h3>PAL Robotics</h3>
+      <p class="affiliation">Workshop Sponsor</p>
+    </div>
   </div>
-    </section>
+</section>
 
-      <!-- Commitee Section -->
 <section id="committee" class="container section">
   <h2>Endorsement</h2>
   <div class="grid">
+
+    <div class="card">
+      <img src="./images/ras_RL.jpeg" alt="IEEE RAS Technical Committee on Robot Learning Logo">
+      <h3>IEEE RAS Technical Committee on Robot Learning</h3>
+    </div>
+
+    <div class="card">
+      <img src="./images/ras_wbc.jpeg" alt="IEEE RAS Technical Committee on Whole-Body Control Logo">
+      <h3>IEEE RAS Technical Committee on Whole-Body Control</h3>
+    </div>
+
   </div>
-    </section>
+</section>
 
   <!-- Resources Section -->
   <section id="resources" class="container section">
