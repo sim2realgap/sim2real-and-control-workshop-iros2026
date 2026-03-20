@@ -193,16 +193,37 @@ body {
   box-shadow: 0 4px 6px rgba(0,0,0,0.3);
   text-align: center;
   border: 2px solid var(--ieeeyellow);
+
+  /* Fix the card size */
+  height: 400px;        /* Set a fixed height */
+  display: flex;        /* Flex layout for content alignment */
+  flex-direction: column;
+  justify-content: flex-start; /* or center if you want vertical centering */
+  align-items: center;
 }
 .card img {
   border-radius: 50%;
-  max-width: 150px;
+  width: 150px;      /* Fixed width */
+  height: 150px;     /* Fixed height to keep shape consistent */
+  object-fit: cover; /* Ensure image fills the space without distortion */
   margin-bottom: 1rem;
 }
 .card h3 {
   color: var(--ieeeyellow);
   margin-bottom: 0.5rem;
 }
+
+/* Remove underline and inherit text color for links inside cards */
+.card a {
+  text-decoration: none; /* remove underline */
+  color: inherit;        /* h3 and p keep the yellow color */
+}
+
+/* Optional: add hover effect for the h3 inside link */
+.card a:hover h3 {
+  color: #ffd700; /* example: brighter yellow on hover */
+}
+
 .affiliation {
   font-style: italic;
   color: #fff3cd; /* Lighter yellow tint for contrast */
@@ -218,6 +239,10 @@ body {
 }
 
 #committee .card h3 a {
+  color: var(--ieeeyellow) !important;
+}
+
+#speakers .card h3 a {
   color: var(--ieeeyellow) !important;
 }
 
@@ -244,4 +269,49 @@ body {
 .footer a {
   color: var(--ieeeyellow);
   text-decoration: underline;
+}
+
+.image-only {
+  background: none;          /* remove card background */
+  border: none;              /* remove card border */
+  box-shadow: none;          /* remove card shadow */
+  text-align: center;
+  padding: 0;                /* optional: remove padding */
+}
+
+.image-only img {
+  width: 100%;               /* responsive width */
+  max-width: 300px;          /* optional max size */
+  height: auto;              /* maintain aspect ratio */
+  border-radius: 0;          /* remove circular crop if needed */
+  display: block;
+  margin: 0 auto;            /* center image */
+}
+
+body {
+  font-size: 18px; /* increase base text size from default ~16px */
+}
+
+.section h2 {
+  font-size: 2.5rem; /* larger main section headings */
+}
+
+.card h3 {
+  font-size: 1.5rem; /* larger card titles */
+}
+
+.hero h2 {
+  font-size: 3rem; /* bigger hero title */
+}
+
+.hero p {
+  font-size: 1.5rem; /* bigger hero subtitle */
+}
+
+.nav-links a {
+  font-size: 1.1rem; /* slightly larger nav items */
+}
+
+.list li {
+  font-size: 1.2rem; /* bigger list text */
 }
