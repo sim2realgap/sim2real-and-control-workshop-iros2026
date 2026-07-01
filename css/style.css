@@ -315,3 +315,64 @@ body {
 .list li {
   font-size: 1.2rem; /* bigger list text */
 }
+
+/* =========================
+   QUESTIONS / Q&A BLOCK
+========================= */
+.qa-box {
+  background: linear-gradient(145deg, #121212, #0f0f0f);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 22px;
+  margin-top: 10px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+}
+
+.qa-intro {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+
+.qa-box p {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.qa-box a[href^="mailto"],
+.callout a[href^="mailto"] {
+  color: #ffc800;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.qa-box a[href^="mailto"]:hover,
+.callout a[href^="mailto"]:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   CTA BUTTON (modern)
+========================= */
+.qa-button {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 12px 18px;
+  background: var(--accent);
+  color: #000;
+  font-weight: 700;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+
+.qa-button:hover {
+  background: var(--accent-dark);
+  transform: translateY(-2px);
+}
+
+.qa-button:active {
+  transform: translateY(0);
+}
