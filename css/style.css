@@ -381,6 +381,16 @@ body {
   transform: translateY(0);
 }
 
+.info-card a {
+  color: var(--ieeeyellow);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.info-card a:hover {
+  text-decoration: underline;
+}
+
 .info-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -402,4 +412,14 @@ body {
 
 .info-card p {
   margin: 0.4rem 0;
+}
+
+.info-card a {
+  color: var(--ieeeyellow);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.info-card a:hover {
+  text-decoration: underline;
 }
