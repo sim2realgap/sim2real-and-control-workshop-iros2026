@@ -1,0 +1,146 @@
+[
+  {
+    "file": "poster_05",
+    "authors": "Daniel Seita, Jason Chen, I-Chun Arthur Liu, Gaurav S. Sukhatme",
+    "title": "CRAFT: Video Diffusion for Bimanual Robot Data Generation",
+    "openreview": "https://openreview.net/forum?id=VUBiLWAakZ"
+  },
+  {
+    "file": "poster_09",
+    "authors": "Xinqi Li, Tianyang TANG, Peng Lu",
+    "title": "Learning-Based Locomotion and Model-Based Jumping for Quadrupedal Robots",
+    "openreview": "https://openreview.net/forum?id=DTDYOZkr0q"
+  },
+  {
+    "file": "poster_10",
+    "authors": "Wen Tian, Xinhang Xu, Sebastian Scherer, Muqing Cao, Junbin Yuan, Jiaxing Li, Ishaan Bhimwal",
+    "title": "Learning Energy-Efficient Air-Ground Actuation for Hybrid Robots on Stair-Like Terrain",
+    "openreview": "https://openreview.net/forum?id=1XPpQ298lX"
+  },
+  {
+    "file": "poster_12",
+    "authors": "Nikhil Sobanbabu, Max Simchowitz, Ishayu Shikhare, Guanya Shi, Angchen Xie, Alan Wang",
+    "title": "FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control",
+    "openreview": "https://openreview.net/forum?id=NOqbCDCEtq"
+  },
+  {
+    "file": "poster_18",
+    "authors": "Yuya Hamamatsu, Nick van der Geest, Maarja Kruusmaa, Lorenzo Garcia, Jaan Rebane, Asko Ristolainen",
+    "title": "Bio2Sim2Real: Data-Informed Simulation Adaptation of Wild Sea Turtle Locomotion for Robotic Swimming",
+    "openreview": "https://openreview.net/forum?id=MXHoKddu8b"
+  },
+  {
+    "file": "poster_21",
+    "authors": "Jiaxun Liu, Boyuan Chen, Boxi Xia",
+    "title": "Dynamic Symmetry for Orientation-Independent Planetary Mobility",
+    "openreview": "https://openreview.net/forum?id=2uh4IGvVII"
+  },
+  {
+    "file": "poster_22",
+    "authors": "zhangliang.gao, Zhihe.Zhou, Xiang Fang, Shuting.LI",
+    "title": "Safety-Constrained Sim-to-Real Residual Control for Sequential Dual-Sided Grasping",
+    "openreview": "https://openreview.net/forum?id=1gl1sJKb4w"
+  },
+  {
+    "file": "poster_23",
+    "authors": "John M Dolan, Maitham AL-Sunni, Henry Z. Liao",
+    "title": "LLA-MPC on Embedded Hardware: Rapid Adaptive Control with Thousands of Parallel Models",
+    "openreview": "https://openreview.net/forum?id=L0liqik6s8"
+  },
+  {
+    "file": "poster_24",
+    "authors": "Teresa Vidal-Calleja, Taisuke Kobayashi, Taiki Ishigaki, Taiga Ikeshima, Sheila Sutjipto, Lan Wu, Eiichi Yoshida",
+    "title": "Distance Field Driven Reinforcement Learning for Reactive and Robust Collision Avoidance",
+    "openreview": "https://openreview.net/forum?id=muuAnv4U66"
+  },
+  {
+    "file": "poster_25",
+    "authors": "Yi Ren, Jiefeng Sun, Jiahe Wang, Eron Ristich, Eric Weissman",
+    "title": "Bridging the Sim-to-Real Gap for Artificial-Muscle-Driven Continuum Robots Using Physics-Informed Koopman-MPC",
+    "openreview": "https://openreview.net/forum?id=C9x1GMQRAo"
+  },
+  {
+    "file": "poster_26",
+    "authors": "Muhammad Moazam Fraz, Karsten Berns, Hannan Ejaz Keen",
+    "title": "Beyond Pixel Similarity: Task-Aware Evaluation of GAN-Based Synthetic Sonar Data for Robotic Perception",
+    "openreview": "https://openreview.net/forum?id=7h90vv4OeY"
+  },
+  {
+    "file": "poster_27",
+    "authors": "Yan Gu, Nhan Le, I-Chia Chang",
+    "title": "B-LIP: Biased Linear Inverted Pendulum Model for Locomotion on Sloped and Accelerating Ground",
+    "openreview": "https://openreview.net/forum?id=ybyVDO37w5"
+  },
+  {
+    "file": "poster_28",
+    "authors": "Muxin Liu, Mingxuan Li, Kenneth Shaw, Deepak Pathak",
+    "title": "IFG: Internet-Scale Guidance for Functional Grasping Generation",
+    "openreview": "https://openreview.net/forum?id=odxEd2wB4c"
+  },
+  {
+    "file": "poster_29",
+    "authors": "Markus Wulfmeier, Leonard Bauersfeld, Ismail Geles, Davide Scaramuzza",
+    "title": "Superhuman Safe and Agile Racing through Multi-Agent Reinforcement Learning",
+    "openreview": "https://openreview.net/forum?id=xiYeGeU01C"
+  },
+  {
+    "file": "poster_30",
+    "authors": "Yan Gu, Petros Ioannou, I-Chia Chang",
+    "title": "Adaptive Rejection of Unknown Hybrid Sinusoidal Disturbances for Bipedal Walking on Multi-Directional Moving Platforms",
+    "openreview": "https://openreview.net/forum?id=O6CXyw7fxk"
+  },
+  {
+    "file": "poster_31",
+    "authors": "Yunfan Ren, Yifan Zhai, Jiaxu Xing, Ismail Geles, Davide Scaramuzza",
+    "title": "Learning to Throw: Agile and Accurate Cable-Suspended Payload Delivery with a Quadrotor",
+    "openreview": "https://openreview.net/forum?id=z76kfutrFq"
+  },
+  {
+    "file": "poster_32",
+    "authors": "Yutong Wang, Varun Kandiyappan, Sebastian Scherer, Neelay Joglekar, Junyi Geng, Bavin Saravanan",
+    "title": "Drone Soccer: Learning to Manipulate with Multicopter Downwash",
+    "openreview": "https://openreview.net/forum?id=j9hYMWmsuU"
+  },
+  {
+    "file": "poster_34",
+    "authors": "Steven Willits, Shreya Sreekantham, Sebastian Scherer, John Liu, Andrew Sippel",
+    "title": "Perching on a Powerline That Moves: Simulator Fidelity for a Wind-Coupled Oscillating Target",
+    "openreview": "https://openreview.net/forum?id=bweGxX7Wv1"
+  },
+  {
+    "file": "poster_35",
+    "authors": "Yukizaki Soh, Taiki Ishigaki, Shoichi Matsuda, Mehdi Benallegue, Marwan Hamze, Kenya Mori, Eiichi Yoshida",
+    "title": "Motion-Dependent Effects of Leg Linkage Modeling on Sim-to-Real Accuracy in Humanoid Robots",
+    "openreview": "https://openreview.net/forum?id=Tu4qxahCbR"
+  },
+  {
+    "file": "poster_36",
+    "authors": "Aaron M. Johnson, Thomas Chun Fai Lee, Steven Man, George Ortiz, David Ologan",
+    "title": "Reduced-Order Modeling for Adaptive Legged Locomotion through Mud",
+    "openreview": "https://openreview.net/forum?id=Ri3wA7axSd"
+  },
+  {
+    "file": "poster_37",
+    "authors": "Parvel Gu, Nicholas Huang",
+    "title": "Simulated NMPC to Embedded Robot Control: History-Aware Waypoint Handoff and Costs",
+    "openreview": "https://openreview.net/forum?id=ZqnVDxWV8P"
+  },
+  {
+    "file": "poster_38",
+    "authors": "Stephane Doncieux, Olivier Sigaud, Mohamed CHETOUANI, Mathilde Kappel, Mahdi Khoramshahi, Louis Annabi, Faiz BEN AMAR, Clémence Grislain",
+    "title": "A Sim-to-Real Integration Pipeline for Training and Deployment of Chunk-Based VLA Manipulation Policies",
+    "openreview": "https://openreview.net/forum?id=EHigliAC5d"
+  },
+  {
+    "file": "poster_39",
+    "authors": "Masayoshi Tomizuka, Yuxin Chen, Yiyang Shao, Mengjie Zhao, Koushil Sreenath, Jiakang Chen, Chuye Hong",
+    "title": "Force as the Interface: Hierarchical Motion–Force Control for Force-Adaptive Humanoid Loco-Manipulation",
+    "openreview": "https://openreview.net/forum?id=hoCfYKjKGE"
+  },
+  {
+    "file": "poster_40",
+    "authors": "Philip Huang, Vaibhav Sanjay, Shangtao Li, Jiaoyang Li, Haowei Wen, Changliu Liu",
+    "title": "RoboFin3D: A Sim-to-Real Platform for Robotic Surface Finishing",
+    "openreview": "https://openreview.net/forum?id=IVYvnepmwF"
+  }
+]
