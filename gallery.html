@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gallery | Sim2Real and Classical Control Workshop</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <meta
+    name="description"
+    content="Gallery of the Sim2Real and Classical Control Workshop at IROS 2026."
+  >
+
+  <style>
+  /* Single-column compact poster layout */
+  .poster-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 1050px;
+    margin: 1.25rem auto 0;
+    padding: 0;
+  }
+
+  .poster-card {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .poster-card:hover {
+    transform: none;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
+  }
+
+  .poster-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    aspect-ratio: 16 / 9;
+    background: #f5f5f5;
+    border-radius: 5px;
+  }
+
+  .poster-card h3 {
+    margin: 0.65rem 0.5rem 0.2rem;
+    padding: 0;
+    color: #172d35;
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+
+  .poster-card p {
+    margin: 0 0.5rem 0.65rem;
+    padding: 0;
+    color: #666;
+    font-size: 0.82rem;
+    line-height: 1.4;
+  }
+
+  .poster-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0.5rem 0.5rem;
+}
+
+.poster-actions .poster-pdf-link,
+.poster-actions .poster-openreview-link {
+  margin: 0;
+}
+
+  /* Compact inline action buttons */
+  .poster-pdf-link,
+  .poster-openreview-link {
+    display: inline-block;
+    align-self: flex-start;
+    width: auto;
+    margin: 0 0.5rem 0.5rem;
+    padding: 0.35rem 0.7rem;
+    background: #172d35;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+    transition: background 0.2s ease;
+  }
+
+  .poster-pdf-link:hover,
+  .poster-openreview-link:hover {
+    background: #2c4a55;
+    color: #fff;
+  }
+
+  .pdf-preview {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+    color: #666;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+
+  @media (max-width: 700px) {
+    .poster-grid {
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .poster-card {
+      padding: 0.35rem;
+    }
+
+    .poster-card h3 {
+      font-size: 0.95rem;
+    }
+
+    .poster-card p {
+      font-size: 0.78rem;
+    }
+
+    .poster-pdf-link,
+    .poster-openreview-link {
+      padding: 0.3rem 0.6rem;
+      font-size: 0.7rem;
+    }
+  }
+</style>
+
+</head>
+
+<body>
+
+<header class="header">
+
+  <nav class="nav container">
+
+    <div class="logo-container">
+
+      <a href="index.html">
+        <img
+          src="./images/ieee_logo.png"
+          alt="Sim2Real and Control IROS Workshop 2026"
+          class="logo-img"
+        >
+      </a>
+
+      <a href="index.html" class="logo-text">
+        Sim2Real & Control IROS Workshop 2026
+      </a>
+
+    </div>
+
+    <ul class="nav-links">
+
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#schedule">Schedule</a></li>
+      <li><a href="index.html#speakers">Speakers</a></li>
+      <li><a href="index.html#committee">Committee</a></li>
+      <li><a href="index.html#support">Support</a></li>
+      <li><a href="index.html#resources">Resources</a></li>
+
+    </ul>
+
+  </nav>
+
+</header>
+
+<main>
+  <section class="container section">
+    <h2>Best Paper Awards</h2>
+    <p class="section-description">
+      Celebrating the outstanding contributions presented at the
+      Sim2Real and Classical Control Workshop at IROS 2026.
+    </p>
+
+    <div class="poster-grid">
+
+      <!-- Best Methodology Paper -->
+      <article class="poster-card">
+        <img
+          src="./images/wp-best_methodology.jpg"
+          alt="Workshop organizers with the authors of the Best Methodology Paper"
+          loading="lazy"
+        >
+
+        <h3>🏆 Best Methodology Paper</h3>
+
+        <p class="paper-title">
+          <strong>Paper title:</strong> Drone Soccer: Learning to Manipulate with Multicopter Downwash
+        </p>
+
+        <p>
+          <strong>Authors:</strong> Neelay Joglekar, Bavin Saravanan, Yutong Wang, Varun Kandiyappan, Junyi Geng, Sebastian Scherer
+        </p>
+      </article>
+
+      <!-- Best Application Paper -->
+      <article class="poster-card">
+        <img
+          src="./images/wp-best_application.jpg"
+          alt="Superhuman Safe and Agile Racing through Multi-Agent Reinforcement Learning"
+          loading="lazy"
+        >
+
+        <h3>🏆 Best Application Paper</h3>
+
+        <p class="paper-title">
+          <strong>Paper title:</strong> Superhuman Safe and Agile Racing through Multi-Agent Reinforcement Learning
+        </p>
+
+        <p>
+          <strong>Authors:</strong> Ismail Geles, Leonard Bauersfeld, Markus Wulfmeier, Davide Scaramuzza
+        </p>
+      </article>
+
+      <!-- Best Poster -->
+      <article class="poster-card">
+        <img
+          src="./images/wp-best-poster.jpg"
+          alt="Workshop organizers with the authors of the Best Poster"
+          loading="lazy"
+        >
+
+        <h3>🏆 Best Poster Award</h3>
+
+        <p class="paper-title">
+          <strong>Poster title:</strong> Learning to Throw: Agile and Accurate Cable-Suspended Payload Delivery with a Quadrotor
+        </p>
+
+        <p>
+          <strong>Authors:</strong> Yifan Zhai, Elia Raimondi, Yunfan Ren, Yannick Armati, Ismail Geles, Jiaxu Xing, Davide Scaramuzza
+        </p>
+      </article>
+
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+
+  © 2026 Sim-to-Real, Real-to-Sim Workshop |
+
+  Contact:
+  <a href="mailto:sim2realgap.iros26@gmail.com">
+    sim2realgap.iros26@gmail.com
+  </a>
+
+</footer>
+
+</body>
+
+</html>
